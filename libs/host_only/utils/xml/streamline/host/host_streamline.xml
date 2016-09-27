@@ -1,0 +1,6 @@
+<group name="streamline1">
+	<list name="tlvs">
+		<string>tlv1.tlv</string>
+		<string>tlv2.tlv</string>
+	</list>
+</group>

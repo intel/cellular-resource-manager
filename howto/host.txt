@@ -1,0 +1,7 @@
+========================
+TEST HOW TO
+========================
+
+Socat is needed for some host tests. Run this command:
+> sudo apt-get install socat
+

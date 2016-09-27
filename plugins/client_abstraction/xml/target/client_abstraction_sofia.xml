@@ -1,0 +1,3 @@
+<group name ="client_abstraction">
+	<bool key="enable_fmmo">false</bool>
+</group>

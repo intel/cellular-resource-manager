@@ -1,0 +1,14 @@
+<group name="hal">
+	<string key="vmodem_sysfs_mdm_state">/tmp/crm_hal_sofia_modem_state</string>
+	<string key="vmodem_sysfs_mdm_ctrl">/tmp/crm_hal_sofia_modem_control</string>
+	<string key="uevent_vmodem_filter">change@/devices/virtual/misc/vmodem</string>
+	<string key="ping_node">/tmp/crm_hal_sofia_ping</string>
+	<string key="dump_node">/tmp/crm_hal_sofia_dump</string>
+	<string key="uevent_host_debug_socket">/tmp/crm_hal_sofia_uevent</string>
+
+	<string key="flash_node">/tmp/crm_hal_sofia_fw_out</string>
+	<bool key="sevcm_flash">false</bool>
+
+	<int key="ping_timeout">5000</int>
+	<bool key="support_modem_up_at_start">false</bool>
+</group>

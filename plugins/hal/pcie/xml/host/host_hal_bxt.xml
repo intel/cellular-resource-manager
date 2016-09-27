@@ -1,0 +1,9 @@
+<group name="hal">
+	<string key="flash_node">TODO</string>
+	<string key="modem_node">TODO</string>
+	<string key="ping_mux_node">TODO</string>
+	<string key="dlc_discovery">TODO</string>
+
+	<int key="ping_timeout">60000</int>
+	<int key="dlc_discovery_timeout">4000</int>
+</group>

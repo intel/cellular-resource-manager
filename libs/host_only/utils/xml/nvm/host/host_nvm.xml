@@ -1,0 +1,19 @@
+<group name="nvm1">
+	<string key="data_folder">/tmp/nvm1/</string>
+	<string key="nvm_server_ipc">NO_NEED</string>
+	<group name="calib">
+		<string key="work_file">TODO</string>
+		<string key="backup_file">TODO</string>
+		<bool key="backup_is_raw">TODO</bool>
+	</group>
+	<group name="static">
+		<string key="work_file">TODO</string>
+		<string key="backup_file">TODO</string>
+		<bool key="backup_is_raw">TODO</bool>
+	</group>
+	<group name="dynamic">
+		<string key="work_file">TODO</string>
+		<string key="backup_file">TODO</string>
+		<bool key="backup_is_raw">TODO</bool>
+	</group>
+</group>

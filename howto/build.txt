@@ -1,0 +1,15 @@
+========================
+BUILD HOW TO
+========================
+
+1. BUILD HOST LIBS/EXE
+-----------------------
+To build host binaries and libraries, add crm_host=true to your build command
+
+2. BUILD TESTU
+-----------------------
+To build testu binaries, add crm_testu=true to your build command
+
+3. DISABLE JAVA BUILD
+-----------------------
+To disable java build, add crm_disable_java_build=true to your build command

@@ -1,0 +1,4 @@
+<group name="firmware_upload">
+	<string key="run_folder">/tmp/fw_upload_run_folder/@</string>
+	<int key="timeout">500</int>
+</group>

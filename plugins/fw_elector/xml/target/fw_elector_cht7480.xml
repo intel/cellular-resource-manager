@@ -1,0 +1,4 @@
+<group name="firmware_elector">
+	<string key="firmware_filter">^XMM_7480.*\.fls$</string>
+</group>
+

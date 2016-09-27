@@ -1,0 +1,20 @@
+<!DOCTYPE author [
+	<!ENTITY main SYSTEM "main.xml">
+	<!ENTITY control SYSTEM "control_sofia.xml">
+	<!ENTITY fw_elector SYSTEM "fw_elector_sofia.xml">
+	<!ENTITY customization SYSTEM "customization_sofia.xml">
+	<!ENTITY hal SYSTEM "hal_sofia.xml">
+	<!ENTITY escalation SYSTEM "escalation_sofia.xml">
+	<!ENTITY client_abstraction SYSTEM "client_abstraction_sofia.xml" >
+]>
+
+<group name="crm1">
+	&main;
+	&control;
+	&fw_elector;
+	&customization;
+	&hal;
+	&escalation;
+	&client_abstraction;
+</group>
+

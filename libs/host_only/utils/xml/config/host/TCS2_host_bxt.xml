@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+	<group name="modules">
+		<string key="crm1">host_crm_bxt.xml</string>
+		<string key="streamline1">host_streamline.xml</string>
+		<string key="nvm1">host_nvm.xml</string>
+	</group>
+</config>

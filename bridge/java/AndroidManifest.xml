@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+	  package="com.intel.telephony.javabridge"
+	  android:sharedUserId="android.uid.system">
+
+	<uses-permission android:name="android.permission.WAKELOCK" />
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+
+	<application android:name=".BridgeApp" android:persistent="true" android:allowBackup="false">
+		<service android:enabled="true" android:name=".BridgeService"/>
+	</application>
+</manifest>

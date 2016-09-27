@@ -1,1 +1,0 @@
-# cellular-resource-manager

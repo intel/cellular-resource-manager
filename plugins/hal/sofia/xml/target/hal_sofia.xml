@@ -1,0 +1,14 @@
+<group name="hal">
+	<string key="vmodem_sysfs_mdm_state">/sys/class/misc/vmodem/modem_state</string>
+	<!-- @TODO: modify modem control node once vmodem changes are merged -->
+	<string key="vmodem_sysfs_mdm_ctrl">/sys/class/misc/vmodem/modem_state</string>
+	<string key="uevent_vmodem_filter">change@/devices/virtual/misc/vmodem</string>
+	<string key="ping_node">/dev/mvpipe-atc</string>
+	<string key="dump_node">/dev/vdump</string>
+
+	<string key="flash_node">/dev/vmodem</string>
+	<bool key="sevcm_flash">false</bool>
+
+	<int key="ping_timeout">5000</int>
+	<bool key="support_modem_up_at_start">false</bool>
+</group>

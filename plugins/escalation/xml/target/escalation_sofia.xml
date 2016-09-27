@@ -1,0 +1,6 @@
+<group name="escalation">
+	<int key="cold_reset">10</int>
+	<int key="reboot">1</int>
+	<int key="timeout">60000</int>
+	<int key="timeout_sanity">20000</int>
+</group>

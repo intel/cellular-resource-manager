@@ -1,0 +1,3 @@
+<group name="firmware_elector">
+	<string key="firmware_filter">\.fls$</string>
+</group>

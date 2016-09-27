@@ -1,0 +1,21 @@
+<!DOCTYPE author [
+	<!ENTITY main SYSTEM "host_main_bxt.xml" >
+	<!ENTITY control SYSTEM "host_control_bxt.xml" >
+	<!ENTITY fw_elector SYSTEM "host_fw_elector.xml" >
+	<!ENTITY fw_upload SYSTEM "host_fw_upload_bxt.xml" >
+	<!ENTITY customization SYSTEM "host_customization.xml" >
+	<!ENTITY hal SYSTEM "host_hal_bxt.xml" >
+	<!ENTITY escalation SYSTEM "host_escalation.xml" >
+	<!ENTITY client_abstraction SYSTEM "host_client_abstraction.xml" >
+]>
+
+<group name="crm1">
+	&main;
+	&control;
+	&fw_elector;
+	&fw_upload;
+	&customization;
+	&hal;
+	&escalation;
+	&client_abstraction;
+</group>

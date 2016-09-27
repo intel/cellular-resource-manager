@@ -1,0 +1,4 @@
+<group name="firmware_upload">
+	<string key="run_folder">/data/modem/@/</string>
+	<int key="timeout">3000</int>
+</group>

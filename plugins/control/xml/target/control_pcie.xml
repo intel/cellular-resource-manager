@@ -1,0 +1,16 @@
+<group name="control">
+	<group name="plugins">
+		<string key="clients">libcrm_client_abstraction.so</string>
+		<string key="fw_elector">libcrm_fw_elector.so</string>
+		<string key="escalation">libcrm_escalation.so</string>
+		<string key="wakelock">libcrm_wakelock.so</string>
+		<string key="hal">libcrm_hal_pcie.so</string>
+		<string key="hal_stub">libcrm_hal_stub.so</string>
+		<string key="customization">libcrm_customization.so</string>
+		<string key="fw_upload">libcrm_fw_upload_pcie.so</string>
+		<string key="dump">libcrm_dump_pcie.so</string>
+	</group>
+
+	<int key="watchdog_timeout">100000</int>
+	<int key="ping_period">30000</int>
+</group>

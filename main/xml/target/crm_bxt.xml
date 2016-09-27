@@ -1,0 +1,22 @@
+<!DOCTYPE author [
+	<!ENTITY main SYSTEM "main.xml">
+	<!ENTITY control SYSTEM "control_pcie.xml">
+	<!ENTITY fw_elector SYSTEM "fw_elector_bxt.xml">
+	<!ENTITY fw_upload SYSTEM "fw_upload.xml">
+	<!ENTITY customization SYSTEM "customization_bxt.xml">
+	<!ENTITY hal SYSTEM "hal_bxt.xml">
+	<!ENTITY escalation SYSTEM "escalation_bxt.xml">
+	<!ENTITY client_abstraction SYSTEM "client_abstraction_pcie.xml" >
+]>
+
+<group name="crm1">
+	&main;
+	&control;
+	&fw_elector;
+	&fw_upload;
+	&customization;
+	&hal;
+	&escalation;
+	&client_abstraction;
+</group>
+

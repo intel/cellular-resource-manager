@@ -1,0 +1,14 @@
+<group name="hal">
+	<string key="flash_node">/dev/iat</string>
+	<string key="modem_node">/dev/ttyIAT</string>
+	<string key="ping_mux_node">/dev/gsmtty11</string>
+	<string key="shutdown_node">/dev/gsmtty11</string>
+
+	<int key="ping_timeout">60000</int>
+
+	<group name="pcie">
+		<string key="power_control">/sys/devices/pci0000:00/0000:00:14.1/power/control</string>
+		<string key="remove">/sys/devices/pci0000:00/0000:00:14.1/0000:02:00.0/remove</string>
+		<string key="rescan">/sys/bus/pci/rescan</string>
+	</group>
+</group>

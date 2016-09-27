@@ -1,0 +1,3 @@
+<group name="main">
+	<string key="control">libcrm_control.so</string>
+</group>
